@@ -6,7 +6,7 @@ The executing environment is
 * pyQt5 5.15.6
 * opencv-python 4.5.5.62
 
-The .ui files define the UI interface of program. "Qt designer" is a good tool to edit the .ui files 
+The .ui files define the GUI interface of program. "Qt designer" is a good tool to edit the .ui files 
 * Seller.ui
 * Cloud.ui
 * Buyer.ui
