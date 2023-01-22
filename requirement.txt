@@ -1,0 +1,6 @@
+numpy == 1.22.2
+phe == 1.4.0
+opencv-python == 4.5.5.62
+PyQt5-5.15.4-py3-none-win_amd64.whl
+pyqt5_plugins-5.15.4.2.2-py3-none-win_amd64.whl
+pyqt5-tools
