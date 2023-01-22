@@ -1,21 +1,31 @@
 # Cloud-based-IPRs-Protection-Mechanism-for-the-E-publishing-System
 The executing environment is
-* python 3.9.9
+* python 3.10.5
 * numpy 1.22.2
 * phe 1.4.0
 * pyQt5 5.15.6
 * opencv-python 4.5.5.62
 
+You can just type the instrution
+```
+pip install -r requirement
+```
 The .ui files define the GUI interface of program. "Qt designer" is a good tool to edit the .ui files 
-* Seller.ui
-* Cloud.ui
-* Buyer.ui
+* SellerGUI.ui
+* CloudGUI.ui
+* BuyerGUI.ui
 
 After edit the .ui files, enter the instructions:
 ```
 pyuic5 -x Seller.ui -o SellerGUI.py
 pyuic5 -x Cloud.ui -o CloudGUI.py
 pyuic5 -x Buyer.ui -o BuyerGUI.py
+```
+
+or
+
+```
+bash makeGUI.sh
 ```
 , then the following three .py files are generated.
 * SellerGUI.py
@@ -33,6 +43,13 @@ python Seller.py
 python Cloud.py
 python Buyer.py
 ```
+
+or
+
+```
+bash run.sh
+```
+
 The steps of interaction are listed below.
 
 * Upload a Degraded Image
