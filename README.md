@@ -6,6 +6,8 @@ The executing environment is
 * pyQt5 5.15.6
 * opencv-python 4.5.5.62
 
+run on Win11.
+
 You can just type the instrution
 ```
 pip install -r requirement
